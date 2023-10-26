@@ -7,52 +7,112 @@
     <title>E vs. B Showdown: Pizza Edition!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;500;600&family=Six+Caps&display=swap"
+        rel="stylesheet">
 </head>
 
 <body data-bs-theme="dark">
 
+    <!-- NAV BAR start -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./images/EvsB_logo.png" alt="e vs b showdown logo" height="60">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/showdown_logo_small.png" alt="e vs b showdown logo" height="42px"
+                    class="rounded-circle">
             </a>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Bronel's Pizza</a>
+                        <a class="nav-link" href="#">Elizabeth's Top Ten</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Elizabeth's Pizza</a>
+                        <a class="nav-link" href="#">Bronel's Top Ten</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- NAV BAR end -->
 
-    <div class="container mt-5">
+    <!-- CAROUSEL start -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active item">
+                <a href="#about"><img src="./images/EvsB_logo_large.png" class="d-block w-100"
+                        alt="e vs b showdown logo"></a>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- CAROUSEL start -->
+
+
+    <!-- ABOUT US start -->
+    <!-- <div class="container-fluid mt-5 bgwhite">
         <div class="row">
+            <div class="col">
+                <hr>
+                <h1>ABOUT US</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi molestiae atque, in quia explicabo
+                    possimus quas voluptatem, quam, amet dolor ducimus optio ex. Nostrum qui voluptate nihil natus
+                    maiores earum?</p>
+            </div>
+        </div>
+    </div> -->
+    <!-- ABOUT US end -->
+
+
+    <!-- ABOUT start -->
+    <div class="container mt-5" id="about">
+        <div class="row mb-5">
             <div class="col-6">
-                <img src="./images/pizza_logo_dark_theme_white.jpg" alt="pizza slice" height="500vh">
+                <img src="./images/pizza_neon_sign.jpg" alt="neon pizza slice sign" height="500vh" width="600vh">
             </div>
             <div class="col-6">
-                <h1>E VS. B SHOWDOWN</h1>
+                <h1>THIS WEEK'S SHOWDOWN</h1>
                 <hr>
                 <h2>Pizza Edition!</h2>
-                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius fuga quam quis explicabo eveniet inventore aliquam doloribus, alias laudantium dolor exercitationem dolorum at quisquam ratione autem. Esse, dignissimos iste!</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
-                    <button class="btn btn-light me-md-2 btn-lg" type="button">Team Bronel</button>
-                    <button class="btn btn-light btn-lg" type="button">Team Elizabeth</button>
+                <p class="mt-5">Every week, we throw down... lists. Lists of our top ten items for the category. This week, it's a pizza party.</p>
+                <p>Now, you decide: Are you Team Bronel or Team Elizabeth?</p>
+                <div class="d-grid gap-4 d-md-flex justify-content-md-center mt-5">
+                    <button class="btn btn-light btn-lg fw-bolder" type="button">Team Bronel</button>
+                    <h3>vs.</h3>
+                    <button class="btn btn-light btn-lg fw-bolder" type="button">Team Elizabeth</button>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- THIS WEEK end -->
 
 
 
