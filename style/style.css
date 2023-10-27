@@ -18,3 +18,11 @@ h1 {
 .bgwhite {
     background-color: #ffffff;
 }
+
+@media (max-width: 991.98px) {
+
+    .carousel-fade .carousel-item,
+    .carousel-item img {
+        max-height: 50vh;
+    }
+}
