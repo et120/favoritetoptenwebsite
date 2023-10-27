@@ -1,7 +1,7 @@
 # favoritetoptenwebsite
-Name(s): 
+Name(s): Elizabeth Trotter, Bronel Lazar
 
-Date Revised: 10.25.2023
+Date Revised: 10.27.2023
 
 Exercise: Favorite Top Ten Website
 
