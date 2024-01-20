@@ -5,7 +5,7 @@ Date Revised: 10.27.2023
 
 Exercise: Favorite Top Ten Website
 
-Brief Description: Created a multi-page website that talks about favorite items in a top ten style. This will be a group assignment, 2 per group.
+Brief Description: Created a multi-page website that includes favorite items in a top ten style. Partner project.
 
 # Peer Review
 Name:Aidan Younathan
